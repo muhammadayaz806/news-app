@@ -110,7 +110,7 @@ export class News extends Component {
   render() {
     return (
       <>
-        <h2 className="text-center my-3">
+        <h2 className="text-center" style={{marginBottom: "15px", marginTop: "75px"}}>
           Top {this.capitalizeFirstLetter(this.props.category)} Headlines
         </h2>
         {/* {this.state.loading && <Spinner />} */}
